@@ -45,7 +45,7 @@ public class Main {
     }
     public static void dateDifference() {
         String str1 = "29/10/2023";
-        String str2 = "10/8/2023";
+        String str2 = "10/08/2023";
         try {
             SimpleDateFormat set = new SimpleDateFormat("dd/MM/yyyy");
             Date date1 = set.parse(str1);
